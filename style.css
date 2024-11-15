@@ -1,0 +1,42 @@
+/* Species Section */
+.species {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+.species h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.species-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding-top: 20px;
+}
+
+.species-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    overflow: hidden;
+}
+
+.species-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.species-card h3 {
+    padding: 15px;
+    font-size: 20px;
+    color: #333;
+}
+
+.species-card:hover {
+    transform: scale(1.05);
+}
